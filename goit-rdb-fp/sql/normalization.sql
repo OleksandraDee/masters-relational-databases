@@ -3,7 +3,6 @@ USE pandemic;
 
 SELECT * FROM infectious_cases LIMIT 50;
 
-
 CREATE TABLE entities (
     id INT AUTO_INCREMENT PRIMARY KEY,
     entity VARCHAR(255),
@@ -30,8 +29,8 @@ JOIN entities e
      ON ic.Entity = e.entity
     AND ic.Code = e.code;
 
-SELECT COUNT(*) FROM infectious_cases;
-
 SELECT * FROM entities LIMIT 50;
 SELECT * FROM infectious_data LIMIT 50;
+
+
 

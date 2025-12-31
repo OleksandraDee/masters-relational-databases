@@ -13,4 +13,3 @@ SELECT
 FROM infectious_data idata
 LIMIT 50;
 
-
